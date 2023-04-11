@@ -1,5 +1,14 @@
 [
     {
+    "language": "Arturo",
+    "markers": [
+      {
+        "type": "line",
+        "pattern": ";"
+      }
+    ]
+  },
+  {
     "language": "Nim",
     "markers": [
       {
@@ -9,15 +18,8 @@
       {
         "type": "block",
         "pattern": {
-          "start": "'''",
-          "end": "'''"
-        }
-      },
-      {
-        "type": "block",
-        "pattern": {
-          "start": "\"\"\"",
-          "end": "\"\"\""
+          "start": "#\[",
+          "end": "\]"
         }
       }
     ]
